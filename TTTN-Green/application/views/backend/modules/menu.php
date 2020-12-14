@@ -35,6 +35,11 @@
                     <i class="fa fa-leaf"></i> Sản phẩm
                 </a>
             </li>
+            <li>
+                <a href="<?php echo base_url() ?>admin/orders">
+                    <i class="fa fa-shopping-cart"></i> Đơn hàng
+                </a>
+            </li>
             <li class="header">CÀI ĐẶT</li>
             <li class="treeview">
                 <a href="#">
