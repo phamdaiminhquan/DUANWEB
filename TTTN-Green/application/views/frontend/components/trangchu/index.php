@@ -257,3 +257,18 @@
     </div>
    </div>
  </div>
+<script>
+    function onAddCart(id){
+        var strurl="<?php echo base_url();?>"+'/sanpham/addcart';
+        jQuery.ajax({
+            url: strurl,
+            type: 'POST',
+            dataType: 'json',
+            data: {id: id},
+            success: function(data) {
+                document.location.reload(true);
+                alert('Thêm sản phẩm vào giỏ hàng thành công !');
+            }
+        });
+    }
+</script>
