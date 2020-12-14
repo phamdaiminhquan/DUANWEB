@@ -18,6 +18,22 @@
             </div>
         </div>
         <ul class="sidebar-menu">
+            <li class="header">CHỨC NĂNG</li>
+            <li class="treeview">
+                <a href="<?php echo base_url() ?>admin">
+                    <i class="fa fa-bar-chart"></i> <span>Thống kê</span>
+                </a>
+            </li>
+            <!-- <li class="treeview">
+                <a href="<?php echo base_url() ?>admin">
+                    <i class="fa fa-bell"></i> <span>Thông báo</span>
+                </a>
+            </li> -->
+            <li class="treeview">
+                <a href="<?php echo base_url() ?>admin/contact">
+                    <i class="fa fa-envelope"></i> <span>Liên hệ</span>
+                </a>
+            </li>
             <li class="header">QUẢN LÝ DANH MỤC</li>
             <li class="treeview">
                 <a href="<?php echo base_url()?>admin/category">
@@ -35,10 +51,40 @@
                     <i class="fa fa-leaf"></i> Sản phẩm
                 </a>
             </li>
+            <li >
+                <a href="<?php echo base_url() ?>admin/content">
+                    <i class="glyphicon glyphicon-list"></i> Tin tức
+                </a>
+            </li>
             <li>
                 <a href="<?php echo base_url() ?>admin/orders">
                     <i class="fa fa-shopping-cart"></i> Đơn hàng
                 </a>
+            </li>
+            <li class="treeview">
+                <a href="<?php echo base_url() ?>admin/customer">
+                    <i class="fa fa-user"></i><span>Khách hàng</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="<?php echo base_url() ?>admin/province">
+                    <i class="fa fa-globe"></i><span>Địa điểm</span>
+                </a>
+            </li>
+            <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-align-justify"></i><span>Giao diện</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active">
+                        <a href="<?php echo base_url() ?>admin/sliders">
+                            <i class="fa fa-cogs"></i> Sliders
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li class="header">CÀI ĐẶT</li>
             <li class="treeview">
